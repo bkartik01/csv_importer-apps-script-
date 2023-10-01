@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>csv importer| bkartik01</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    
+       
+        <section class="mt-5 mb-5 mb-md-0">
+            <div class="container-xxl g-codecyan overflow-hidden">
+                <div class="row justify-content-between align-items-center gx-5 gy-5">
+                    <div class="col-md-3">
+                        <div class="text-center text-md-start">
+                            <h1 class="display-1 fw lh-base">Hi, I'm <span class="text-accent-codecyan">Kartik's
+                                    CSVhelper</span>!
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class=" text-center text-md-end">
+                            <p class="fs-4">I am a CSV importer for google sheets.</p>
+                            <h5 class="mt-5 lh-base">Just drag and drop the files </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    
+        <div id="drop-area" style="border: 2px dashed #ccc; padding: 20px; text-align: center;">
+            Drop CSV File Here
+          </div>
+        
+          <label for="columns">Select Columns to Import:</label>
+          <input type="text" id="columns" placeholder="Column1,Column2,Column3">
+          <br>
+          <label for="filterColumn">Filter Column Index:</label>
+          <input type="number" id="filterColumn" placeholder="Enter column index">
+          <label for="filterValue">Filter Value:</label>
+          <input type="text" id="filterValue" placeholder="Enter filter value">
+        
+         <script src="script.js"></script>
+</body>
+
+</html>
